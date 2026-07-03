@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A role-based ecommerce application built with Next.js and Tailwind CSS",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint"
   },
   "dependencies": {
